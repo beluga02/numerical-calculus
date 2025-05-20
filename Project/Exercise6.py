@@ -56,3 +56,6 @@ def gaussSeidel(A, y, m, x_0, nmax, x):
     x_old = x_new
     k += 1
 
+
+gaussSeidel(A, vh, len(A), w_0, 7, x)
+
